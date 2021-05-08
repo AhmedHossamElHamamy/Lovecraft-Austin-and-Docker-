@@ -1,2 +1,11 @@
-# Lovecraft-Austin-and-Docker-
-When a book has entered “the public domain,” its copyright has expired and the material now belongs to the general public. Not only does this mean that anybody can creatively reinvent that original work without paying a penny but also that this book is now free for anyone to read. Two of the books which entered the public domain are HP Lovecraft’s Beyond the Wall of Sleep, and Jane Austin’s Pride and Prejudice.  Given both books (attached as links below), you are tasked to find common words between those two books. You should consider the following:      Upper-cased and lower-cased words,     Punctuation marks,     Extra white spaces,     The encoding of the files, e.g. utf-8, and     Empty lines   Write a Docker image to perform the previous analysis on both books, i.e. to find the common words. Make sure to write a clean, coherent code. You MUST submit the following:      Your source codes (Java, Python, ...etc),     Your Dockerfile,     Necessary dependencies,     Any asset for your image to be successfully built on other devices, and     Pushing your image on hub.docker.com is a plus!  HP Lovecraft’s Beyond the Wall of Sleep https://www.hplovecraft.com/writings/texts/fiction/bws.aspx  Jane Austin’s Pride and Prejudice https://www.gutenberg.org/files/1342/1342-h/1342-h.htm
+the first book is Beyond_the_Wall_of_Sleep
+the second book is Pride and Prejudice
+file.py :the file which have python code to find simliar words between books
+Dockerfile: it's very important to make the docker image
+------------------------------------------------------------------------------
+In file.py ,I put the path of the two books on my laptob in it so you should change the path to work successfully with you.
+Usig terminal ubuntu 18.04 to make docker image:
+docker build . -t  ahmed/docker-app
+docker run ahmed/firstapp
+-------------------------------------------------------------------------------
+The docker image will work now.
