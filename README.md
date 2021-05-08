@@ -5,7 +5,7 @@
 ------------------------------------------------------------------------------
 In file.py ,I put the path of the two books on my laptob in it so you should change the path to work successfully with you.
 Usig terminal ubuntu 18.04 to make docker image:
-docker build . -t  ahmed/docker-app
-docker run ahmed/firstapp
+(1) docker build . -t  ahmed/docker-app
+(2) docker run ahmed/firstapp
 -------------------------------------------------------------------------------
 The docker image will work now.
